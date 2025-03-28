@@ -1,0 +1,66 @@
+.banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.banner-hidden {
+    opacity: 0;
+    transform: translateY(-100%);
+}
+
+.navbar {
+    position: fixed;
+    top: 140px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    transition: background-color 0.3s;
+}
+
+.navbar-fixed {
+    top: 0;
+    z-index: 1001;
+}
+
+body {
+    padding-top: 200px;
+}
+
+.navbar-nav {
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+.ceep img {
+    max-width: 60%;
+    margin: 10px auto 0;
+    display: block;
+}
+
+#titulo, #titulosub {
+    text-align: center;
+    font-family: Impact, fantasy;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+#titulo {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+#titulosub {
+    font-size: 2.5rem;
+    color: #fff;
+}
