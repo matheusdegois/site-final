@@ -54,7 +54,11 @@
         </div>
         </div>
     </footer>
-</div>
+
+    <script>Fancybox.bind("[data-fancybox='imagem']", {
+
+});
+</script>
 </body>
 
 </html>

@@ -70,14 +70,13 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contato.php">Contato</a>
-                    </li>
-
-                    <li class="nav-item">
                         <a class="nav-link" href="noticias.php">Notícias</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="galeria.php">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.php">Contato</a>
                     </li>
                 </ul>
             </div>
